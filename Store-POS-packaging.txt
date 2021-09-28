@@ -1,0 +1,8 @@
+cd out of Store-POs
+npx electron-packager Store-POS --platform=win32 --arch=x64 Store-POS\release-builds\POS-win32-x64
+
+move Store-POS-release-builds-POS-win32-x64-win32-x64 inside Store-POS
+
+cd Store-POS
+
+node build.js
